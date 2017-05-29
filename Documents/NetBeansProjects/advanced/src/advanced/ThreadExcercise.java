@@ -11,7 +11,7 @@ public class ThreadExcercise extends Thread {
         th1.start();
         //Thread.yield();
         th1.setName(" Group 5"); 
-        System.out.println("hi im eden and im involved ");
+        System.out.println(" ");
         System.out.println("the name of the thrread is"+  th1.getName());
         th1.join();
         Thread2 th2=new Thread2();
@@ -65,5 +65,10 @@ class Thread3 extends Thread{
     public int getSum3(){
         return sum3;
     }
+ystem.out.println("the sum of the thread 3 is= "+sum3);
 
+    }
+    public int getSum3(){
+        return sum3;
+    }
 }
