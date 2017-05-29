@@ -69,9 +69,7 @@ class Thread3 extends Thread{
 //
 //    }
 //    public int getSum3(){
-       return sum3;
-    }
-public class lastlab {
+ {
 
     /**
      * @param args the command line arguments
